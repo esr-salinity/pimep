@@ -1,5 +1,5 @@
 function [rmse_smos,rmse_smap,rmse_argo,std_smap_argo]=...
-    triple_point_collocation(start_date,months)
+    basic_triple_point_collocation(start_date,months)
 
 % Triple Point Collocation Analysis for satellite (SMAP,SMOS) Level 3 and 
 % gridded Argo data
